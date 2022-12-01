@@ -123,13 +123,13 @@ App = {
       var fetchedStateAdmin;
       phaseEnum = state.toString();
       if (state == 0) {
-        fetchedState = "Registration phase is on , go register yourself to vote !!";
+        fetchedState = "Registration phase is still ongoing";
         fetchedStateAdmin = "Registration";
       } else if (state == 1) {
-        fetchedState = "Voting is now live !!!";
+        fetchedState = "Voting is active now";
         fetchedStateAdmin = "Voting";
       } else {
-        fetchedState = "Voting is now over !!!";
+        fetchedState = "Voting is now over!";
         fetchedStateAdmin = "Election over";
       }
 

@@ -7,7 +7,7 @@
     width: 100%;
     height: 100vh;
     background: #33b5e5;
-    background: linear-gradient(57deg, #34d8eb ); 
+    background: linear-gradient(57deg, #3EADCF, #ABE9CD ); 
     clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
 
 }
@@ -54,11 +54,7 @@ nav{
 
 section{ display: flex;  }
 
-.leftside { width: 60%; height: auto; overflow: hidden; margin-top: 20px;}
-
-.leftside img{ padding-left: 50px; width: 800px;  height: 400px; }
-
-.rightside{ width:40%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;}
+.rightside{ width:100%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;}
 
 .rightside h1{ text-align: center;
     color: #ffffff;
@@ -69,18 +65,19 @@ section{ display: flex;  }
 .rightside p {  
     font-size: 1.1rem; padding: 30px 0; }
 
-.rightside button{   font-size: 17px;
-    font-weight: 600;
-    color: black;
-    text-transform: uppercase;
-    background: linear-gradient(57deg,#34d8eb , #b1ebf2); 
-    border-radius: 25px;
-    padding: 20px 35px ; 
-
+button {
+    margin: 2em auto;
+    display: block;
+    border: 6px solid rgba(255,255,255,0.45);
+    border-radius: 50px;
+    padding: 1em 3em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: padding-box;
+    position: relative;
+    color: #FFF;
+    background-image: linear-gradient(90deg, #7b81ec, #3bd1d3);
 }
-
-
-
-.rightside button:hover{
-      background: linear-gradient(57deg,#8cc2ed,#46a5f2, );   
+a{
+    text-decoration: none;
 }
